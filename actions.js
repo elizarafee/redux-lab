@@ -1,6 +1,5 @@
 const redux = require('redux');
 
-
 // creating a constant for a action Buying Cake
 const BUY_CAKE = 'BUY_CAKE';
 
