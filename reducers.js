@@ -1,4 +1,6 @@
 const BUY_CAKE = require('./actions')
+const redux = require('redux');
+const createStore = redux.createStore;
 
 // a state to tract of the cakes
 const initialState = {
@@ -15,3 +17,9 @@ const reducer = (state = initialState, action) => {
         default: return state
     }
 }
+
+// createStore accepts the reducer
+const store = createStore(reducer);
+
+// we can get the current state by getState()
+console.log('Initial State: ', store.getState())
