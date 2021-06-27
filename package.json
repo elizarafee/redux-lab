@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/elizarafee/redux-lab/issues"
   },
-  "homepage": "https://github.com/elizarafee/redux-lab#readme"
+  "homepage": "https://github.com/elizarafee/redux-lab#readme",
+  "dependencies": {
+    "redux": "^4.1.0"
+  }
 }
